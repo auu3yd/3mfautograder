@@ -7,7 +7,7 @@ If you would like to test or otherwise debug the script, there are a few things 
 
 1. This script expects a certain (POSIX-compliant) file layout. 
 I advise running the script in its own directory. 
-2. You should have two directories in the same directory as the script: fileinput and csv. 
+2a. You should have two directories in the same directory as the script: fileinput and csv. 
 You should place validc.csv into the csv directory. That should be the only thing in that directory.
 2b. fileinput should be otherwise empty apart from a single .3mf file. You will have to clear this folder before running the program again if debugging. This program was developed to be containerized, and as such I didn't really care about any file cleanup afterwards (as I'd just reset the container), but if testing in a native environment, you will need to empty this file. 
 
