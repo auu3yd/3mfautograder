@@ -5,7 +5,7 @@ The current version is not finished. As such, no guarantees of functionality are
 
 If you would like to test or otherwise debug the script, there are a few things you should know. 
 
-1. This script expects a certain (POSIX-compliant) file layout. 
+1. This script expects a certain file layout, and has only been tested on POSIX-compliant systems (and will probably only be deployed on one, as well). 
 I advise running the script in its own directory. 
 2. You should have two directories in the same directory as the script: fileinput and csv. 
 You should place validc.csv into the csv directory. That should be the only thing in that directory.
